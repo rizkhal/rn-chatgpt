@@ -19,8 +19,6 @@ const styles = StyleSheet.create({
   container: { flex: 1 },
 });
 
-const KEY = "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";
-
 export default function App() {
   const [appIsReady, setAppIsReady] = React.useState(false);
   const [isTyping, setIsTyping] = React.useState(false);
